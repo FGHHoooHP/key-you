@@ -17,7 +17,7 @@ if player then
         -- ตรวจสอบคีย์ที่ผู้เล่นกรอก
         if enteredKey == requiredKey then
             -- คีย์ถูกต้อง
-            print("Key valid!")
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/FGHHoooHP/FarmBone/main/README.md"))()
             -- ดำเนินการเพิ่มเติม (แสดง UI, เปิดฟีเจอร์ ฯลฯ)
         else
             -- คีย์ไม่ถูกต้อง
